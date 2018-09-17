@@ -1,0 +1,138 @@
+.main-title {
+	text-align: center;
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.logout-btn{
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 1rem;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.reset-btn{
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+	font-size: 1rem;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.welcome-user{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	font-size: 1rem;
+}
+
+#inventory {
+	color: white;
+	font-size: 13px;
+	cursor: default;
+}
+
+#inventory .item {
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.user-level{
+	margin-left: 1%;
+	color: yellow;
+	font-size: 1.2rem;
+}
+
+.user-score{
+	font-size: 1.2rem;
+	margin-right: 1%;
+    float: right;
+	color: yellow
+}
+
+#container {
+	border: 3px solid green;
+}
+
+#panes {
+	display: flex;
+	justify-content: center;
+}
+
+#screenPane {
+	position: relative;
+	color: transparent;
+}
+
+#chapter {
+	position: absolute;
+	top: 220px;
+	width: 100%;
+	padding: 10px 0;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+	font-variant: small-caps;
+	font-size: 28px;
+}
+
+#chapter.death {
+	background-color: red;
+}
+
+#editorPane {
+}
+
+#editorPane #buttons {
+	margin-top: 5px;
+	padding: 7px;
+	background: #000;
+	cursor: pointer;
+}
+
+.editor-btn{
+	margin: 0 2%;
+}
+
+#editorPane #buttons a:hover {
+	background: #fff;
+	color: #000;
+}
+
+#editorPane #buttons .keys {
+	background: #fff;
+	color: #000;
+	display: inline-block; /* for min-width */
+	min-width: 15px;
+	text-align: center;
+}
+
+.CodeMirror {
+	border: 2px solid #333;
+	border-left: 0;
+	margin-left: 2px;
+}
+
+.CodeMirror-cursor, .CodeMirror-selected {
+	z-index: 10;
+}
+
+.CodeMirror.focus {
+	border: 2px solid #888;
+	border-left: 2px solid #888;
+	margin-left: 0;
+}
+
+.CodeMirror-lines .disabled {
+	background: #511 !important;
+}
+
+.CodeMirror-lines .disabled .editableSection {
+	background: rgba(0, 0, 0, 0.5); /* semi-transparent so we can see selection over it */
+}
